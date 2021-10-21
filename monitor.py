@@ -44,7 +44,7 @@ while True:
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
         # add my account login name and password,
-        server.login("emailMASTER1999@gmail.com", "Helium2@")
+        server.login("emailMASTER1999@gmail.com", "")
 
         # Print the email's contents
         print('From: ' + fromaddr)
